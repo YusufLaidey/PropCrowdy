@@ -12,6 +12,11 @@ import Ellipse2 from '../images/Ellipse2.svg'
 import Ellipse3 from '../images/Ellipse3.svg'
 import arrow from '../images/arrow.svg'
 import googleplay from '../images/googleplay.svg'
+import Iconmaterial from '../images/Iconmaterial.svg'
+import search from '../images/search.svg'
+// import searchicon from '../images/searchicon.svg'
+// import moneybill from '../images/moneybill.svg'
+// import trendingup from '../images/trendingup.svg'
 
 const Body = () => {
   return (
@@ -25,7 +30,7 @@ const Body = () => {
                     <div className='round'>
                       <p className='p'></p>
                     </div>
-                    <div> <p className='see'>See How It Works</p> </div>
+                    <p className='seee'>See How It Works</p>
                 </div>
             </div>
             <div className='background'>
@@ -83,10 +88,11 @@ const Body = () => {
               <img src={arrow} alt="Iconbootstrap" className="arrow"/>
             </div>
           </div>
-          <div className='background3'>
+          <div className='backgroundd'>
             <img src={smile1} alt="Iconbootstrap" className="smile2"/>
             <p className='ade'>Ade Mikel</p>
             <p className='invest'>Investor</p>
+            <button className='divvv'>Join Our Investors Network</button>
           </div>
           <div>
             <p className='join'>Join Real Estate Investors investing realtime</p>
@@ -97,6 +103,111 @@ const Body = () => {
         <div>
           <p className='as'>As an Investor</p>
           <p className='get'>Get access to investment opportunities while getting expert advice on your investment choices. Our investment oppotunities are regulated by appropriate authorities, investors need not worry as their investment are safe and secure.</p>
+        </div>
+        <div className='div1'>
+          <div className='background3'>
+            <div className='inner'>
+              <div className='div1'>
+                <div>
+                  <img src={Ellipse3} alt="Iconbootstrap" className="ellipse3i"/>
+                </div>
+                <div className='innerrr'>
+                  <p className='price'>+ ₦180,900</p>
+                  <p className='inn'>Investor</p>
+                </div>
+              </div>
+            </div>
+            <div className='inner'>
+            <div className='div1'>
+                <div>
+                  <img src={Ellipse2} alt="Iconbootstrap" className="ellipse3i"/>
+                </div>
+                <div className='innerrr'>
+                  <p className='price'>+ ₦840,900</p>
+                  <p className='inn'>Investor</p>
+                </div>
+              </div>
+            </div>
+            <div className='inner'>
+            <div className='div1'>
+                <div>
+                  <img src={Ellipse1} alt="Iconbootstrap" className="ellipse3i"/>
+                </div>
+                <div className='innerrr'>
+                  <p className='price'>+ ₦680,900</p>
+                  <p className='inn'>Investor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className='div1'>
+              <div className='background4'>
+                <img src={Iconmaterial} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Set Up Your Account</p>
+                <p className='easily'>Easily sign up with your social media account or create an account with your email</p>
+              </div>
+              <div className='background4i'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Search Opportunities</p>
+                <p className='easily'>Select a project opportunity and invest, get monthly updates on your dashboard.</p>
+              </div>
+            </div>
+            <div className='div1'>
+              <div className='background4'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Fund A Project</p>
+                <p className='easily'>Your return on Investment is deposited into your account at the end of the cycle.</p>
+              </div>
+              <div className='background4i'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Get Returns</p>
+                <p className='easily'>Follow up with trends on your dashboard and monitor your investments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className='as'>As a Developer</p>
+          <p className='get'>As a developer looking to crowd found a building project you can gain access to investors on PropCrowdy in few steps. Create a company profile, complete our verification and review processes. Only for Nigerian Registerd Companies.</p>
+        </div>
+        <div className='div1'>
+          <div className='background5'>
+            <p className='developer'>Developer</p>
+            <div className='div1'>
+              <p className='offer'>Offer Document</p>
+              <p className='verified'>Verified</p>
+            </div>
+            <form></form>
+          </div>
+          <div>
+          <div>
+            <div className='div1'>
+              <div className='background4'>
+                <img src={Iconmaterial} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Set Up Your Account</p>
+                <p className='easily'>Easily sign up with your social media account or create an account with your email</p>
+              </div>
+              <div className='background4i'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Search Opportunities</p>
+                <p className='easily'>Select a project opportunity and invest, get monthly updates on your dashboard.</p>
+              </div>
+            </div>
+            <div className='div1'>
+              <div className='background4'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Fund A Project</p>
+                <p className='easily'>Your return on Investment is deposited into your account at the end of the cycle.</p>
+              </div>
+              <div className='background4i'>
+                <img src={search} alt="Iconbootstrap" className="Iconmaterial"/>
+                <p className='setup'>Get Returns</p>
+                <p className='easily'>Follow up with trends on your dashboard and monitor your investments</p>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
     </Style>
   )
@@ -184,14 +295,10 @@ const Style = styled.button`
   margin-top: 18px;
 }
 
-.see {
+.seee {
   height: 30px;
   width: 130px;
-  left: 455px;
-  top: 601px;
-  border-radius: nullpx;
   font-family: Apercu Pro;
-  font-weight: 100px;
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
@@ -203,7 +310,7 @@ const Style = styled.button`
 
 .background {
   height: 485px;
-  width: 512px;
+  width: 462px;
   border-radius: 20px;
   background-color: #F5F6F8;
   margin-top: 132px;
@@ -286,9 +393,9 @@ const Style = styled.button`
 
 .whatsapp {
   height: 96px;
-width: 95px;
-margin-left: 707px;
-margin-top: 37px;
+  width: 95px;
+  margin-left: 707px;
+  margin-top: 37px;
 }
 
 .background2 {
@@ -301,6 +408,31 @@ margin-top: 37px;
   overflow: visible;
 }
 
+.divvv {
+  height: 42px;
+  width: 228px;
+  border-radius: 6px;
+  background: #FF0000;
+  border-color: #FF0000;
+  margin-left: 6px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+
+}
+
+.backgroundd{
+  height: 318px;
+  width: 330px;
+  border-radius: 22px;
+  background: #FFFFFF;
+  margin-left: -70px;
+  margin-top: 90px;
+}
+
 .investors {
   height: 31px;
   width: 214px;
@@ -309,7 +441,7 @@ margin-top: 37px;
   font-weight: 900;
   line-height: 31px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #070707;
   margin-top: 30px;
   margin-left: 34px;
@@ -399,8 +531,6 @@ margin-top: 37px;
   width: 330px;
   border-radius: 22px;
   background: #FFFFFF;
-  margin-top: 64px;
-  margin-left: -36px;
 }
 
 .smile2 {
@@ -498,5 +628,163 @@ margin-top: 37px;
   text-align: left;
   color: #000000;
   margin-left: 153px;
+}
+
+.background3 {
+  height: 407px;
+  width: 531px;
+  border-radius: 20px;
+  background: #F5F6F8;
+  margin-left: 153px;
+}
+
+.background4 {
+  height: 206px;
+  width: 221px;
+  border-radius: 13px;
+  background: #D9D9D966;
+  margin-left: 163px;
+  margin-bottom: 15px;
+}
+
+.background4i {
+  height: 206px;
+  width: 221px;
+  border-radius: 13px;
+  background: #D9D9D966;
+  margin-left: 20px;
+}
+
+.inner {
+  height: 85px;
+  width: 433px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-top: 41px;
+  margin-left: 47px;
+}
+
+.ellipse3i {
+  height: 54px;
+  width: 54px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.innerrr {
+  height: 26px;
+  width: 86px;
+  border-radius: 30px;
+  margin-top: 16px;
+  margin-left: 14px;
+  background: #3734A9;
+}
+
+.price {
+  height: 14px;
+  width: 76px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #060606;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.inn {
+  height: 17px;
+  width: 51px;
+  font-family: Apercu Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6C6C6C;
+}
+
+.Iconmaterial{
+  height: 70.91426086425781px;
+  width: 70.91426086425781px;
+  margin-top: 21.87px;
+}
+
+.setup {
+  height: 34px;
+  width: 203px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #050505;
+}
+
+.easily {
+  height: 44px;
+  width: 186px;
+  font-family: Apercu Pro;
+  font-size: 10px;
+  font-style: italic;
+  margin-left: 16px;
+  margin-top: -20px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+
+.background5 {
+  height: 492px;
+  width: 404px;
+  background: #F3F7FA;
+  margin-left: 153px;
+}
+
+.developer {
+  height: 31px;
+  width: 105px;
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-top: 47px;
+  margin-left: 36px;
+}
+
+.offer {
+  height: 35px;
+  width: 211px;
+  font-family: Apercu Pro;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-left: 36px;
+  margin-top: 10px;
+}
+
+.verified{
+  height: 16px;
+  width: 46px;
+  font-family: Apercu Pro;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF0000;
+  margin-left: -10px;
 }
 `
