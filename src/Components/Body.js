@@ -178,7 +178,47 @@ const Body = () => {
               <p className='offer'>Offer Document</p>
               <p className='verified'>Verified</p>
             </div>
-            <form></form>
+            <div>
+              <form>
+                <label className='label'>Company Introduction</label> <br/>
+                <input type='text' placeholder='' className='blank'/> <br/>
+
+                <label className='tell'>Tell Your Story</label> <br/>
+                <input type='text' placeholder='' className='blank'/>
+              </form>
+            </div>
+            <div>
+            <div className='bg'>
+            <div className='div1'>
+                <div>
+                  <img src={search} alt="Iconbootstrap" className="pic"/>
+                </div>
+                <div className=''>
+                  <p className='raising'>Raising</p>
+                  <div className='diiv'>
+                    <p className='pricee'>+ ₦100,900,000</p>
+                    <p className='property'>Property Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className='bgg'>
+            <div className='div1'>
+                <div>
+                  <img src={search} alt="Iconbootstrap" className="pic"/>
+                </div>
+                <div className=''>
+                  <p className='raising'>Raising</p>
+                  <div className='diiv'>
+                    <p className='pricee'>+ ₦100,900,000</p>
+                    <p className='property'>Property Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
           <div>
           <div>
@@ -207,6 +247,53 @@ const Body = () => {
               </div>
             </div>
           </div>
+          </div>
+        </div>
+        <div>
+          <p className='why'>Why Choose PropCrowdy</p>
+        </div>
+        <div className='div1'>
+          <div className='background5'>
+            <p className='deal'>Deal Room</p>
+            <p className='heyyy'></p>
+            <div>
+              <form>
+                <label className='label'>Location and Address</label> <br/>
+                <input type='text' placeholder='' className='blank'/> <br/>
+
+                <label className='view'>View Project Documents</label> <br/>
+                <input type='text' placeholder='' className='blank'/>
+              </form>
+            </div>
+            <p className='heyy'></p>
+            <p className='heyyy'></p>
+            <p className='hey'></p>
+          </div>
+          <div>
+            <p className='room'>Our Deal Room</p>
+            <p className='provides'>Our deal room provides you all the documentary evidence you need to know about an investment. As part of our due-diligence verification we compile all necessary documents associated with each opportunity on our platform.</p>
+            <button className='learn'>Learn More</button>
+          </div>
+        </div>
+        <div className='div1'>
+          <div>
+            <p className='committee'>Independent Investment Committee</p>
+            <p className='ensure'>In other to ensure that our investments are viable, we have a team of independent investment advisors who are responsible for appraising the property investment and ensuring that offerings meet the minimum risk acceptance criteria.</p>
+            <button className='stated'>Get Started</button>
+          </div>
+          <div className='backgroundd5'>
+            <p className='dependent'>Independent Investment Committee</p>
+            <p className='acceptance'>Risk acceptance criteria.</p>
+            <div className='div1'>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
           </div>
         </div>
     </Style>
@@ -741,10 +828,11 @@ const Style = styled.button`
 }
 
 .background5 {
-  height: 492px;
+  height: 542px;
   width: 404px;
   background: #F3F7FA;
   margin-left: 153px;
+  color: #F3F7FA;
 }
 
 .developer {
@@ -786,5 +874,314 @@ const Style = styled.button`
   text-align: left;
   color: #FF0000;
   margin-left: -10px;
+}
+
+.label {
+  height: 18px;
+  width: 84px;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-left: -218px;
+  margin-top: 23px;
+}
+
+.blank {
+  height: 35px;
+  width: 334px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+.tell {
+  height: 18px;
+  width: 84px;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-left: -259px;
+}
+
+.view {
+  height: 18px;
+  width: 84px;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-left: -209px;
+}
+
+.bg {
+  height: 85px;
+  width: 286px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-top: 25px;
+  margin-left: -50px;
+}
+
+.bgg {
+  height: 85px;
+  width: 286px;
+  left: 365px;
+  top: 2895px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-left: 209px;
+  margin-top: 10px;
+}
+
+.raising {
+  height: 15px;
+  width: 38px;
+  font-family: Apercu Pro;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF0000;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.pic {
+  height: 44.099998474121094px;
+  width: 44.099998474121094px;
+  color: #FF0000;
+  margin-top: 23px;
+  margin-left: 20px;
+}
+
+.diiv {
+  height: 26px;
+  width: 136px;
+  border-radius: 30px;
+  background: #3734A9;
+  margin-left: 5px;
+  margin-top: -8px;
+  justify-content: center;
+}
+
+.pricee {
+  height: 14px;
+  width: 109px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #060606;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.property{
+  height: 17px;
+  width: 125px;
+  font-family: Apercu Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6C6C6C;
+  margin-left: 5px;
+  margin-top: -0.11px;
+}
+
+.why {
+  height: 42px;
+  width: 394px;
+  font-family: Tiempos Headline;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #050505;
+  margin-left: 512px;
+  margin-top: 233px;
+}
+
+.deal {
+  height: 30px;
+  width: 119px;
+  font-family: Apercu Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-left: 31px;
+  margin-top: 45px;
+}
+
+.heyyy {
+  height: 35px;
+  width: 220px;
+  border-radius: 4px;
+  background: rgba(231, 218, 218, 0.6);
+  margin-left: 35px;
+  margin-top: 17px;
+}
+
+.heyy {
+  height: 35px;
+  width: 315px;
+  border-radius: 4px;
+  margin-left: 35px;
+  background: rgba(231, 218, 218, 0.6);
+}
+
+.hey{
+  height: 16px;
+  width: 220px;
+  border-radius: 4px;
+  margin-left: 35px;
+  background: rgba(231, 218, 218, 0.6);
+}
+
+.room {
+  height: 73px;
+  width: 455px;
+  font-family: Tiempos Headline;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 168px;
+  margin-top: 115px;
+  color: #050505;
+}
+
+.provides {
+  height: 107px;
+  width: 470px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+  margin-left: 168px;
+}
+
+.learn {
+  height: 60px;
+  width: 211px;
+  border-radius: 47px;
+  border-color: #FF0000;
+  background-color: #FF0000;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-left: -86px;
+  text-transform: capitalize;
+}
+
+.committee {
+  height: 73px;
+  width: 411px;
+  font-family: Tiempos Headline;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 39px;
+  margin-top: 245px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 153px;
+  color: #050505;
+}
+
+.ensure {
+  height: 110px;
+  width: 470px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 153px;
+  color: #000000;
+}
+
+.stated {
+  height: 60px;
+  width: 211px;
+  border-radius: 47px;
+  border-color: #FF0000;
+  background-color: #FF0000;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: -153px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.backgroundd5 {
+  height: 452px;
+  width: 465px;
+  background: #F3F7FA;
+  margin-left: 112px;
+  margin-top: 157px;
+}
+
+.dependent {
+  height: 62px;
+  width: 238px;
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 35px;
+  margin-left: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.acceptance {
+  height: 20px;
+  width: 181px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #718EBF;
 }
 `
