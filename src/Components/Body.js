@@ -14,6 +14,9 @@ import arrow from '../images/arrow.svg'
 import googleplay from '../images/googleplay.svg'
 import Iconmaterial from '../images/Iconmaterial.svg'
 import search from '../images/search.svg'
+import one from '../images/one.svg'
+import oneeee from '../images/oneeee.svg'
+import oness from '../images/oness.svg'
 // import searchicon from '../images/searchicon.svg'
 // import moneybill from '../images/moneybill.svg'
 // import trendingup from '../images/trendingup.svg'
@@ -294,6 +297,27 @@ const Body = () => {
               <p></p>
               <p></p>
             </div>
+          </div>
+        </div>
+        <div className='div1'>
+        <div>
+          <div className='shadow'>
+          <div className='div1'>
+          <img src={one} alt="Iconbootstrap" className="one"/>
+          <img src={oneeee} alt="Iconbootstrap" className=""/>
+          <img src={oness} alt="Iconbootstrap" className=""/>
+          </div>
+          </div>
+            <p></p>
+          </div>
+          <div>
+            <p className='two'>2</p>
+            <p></p>
+          </div>
+          <div className='shadow'>
+          {/* <img src={one} alt="Iconbootstrap" className=""/> */}
+            <p className='three'>3</p>
+            <p></p>
           </div>
         </div>
     </Style>
@@ -1183,5 +1207,16 @@ const Style = styled.button`
   letter-spacing: 0px;
   text-align: left;
   color: #718EBF;
+}
+
+.one {
+  margin-left: 10px;
+}
+
+
+.shadow {
+  height: 166px;
+  width: 84px;
+  background-image: url("oneeee");
 }
 `
