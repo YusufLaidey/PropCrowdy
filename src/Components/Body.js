@@ -207,8 +207,8 @@ const Body = () => {
                 </div>
                 <div className=''>
                   <p className='raising'>Raising</p>
-                  <div className='diiv'>
-                    <p className='pricee'>+ ₦100,900,000</p>
+                  <div>
+                    <button className='pricee'>+ ₦100,900,000</button>
                     <p className='property'>Property Developer</p>
                   </div>
                 </div>
@@ -223,8 +223,8 @@ const Body = () => {
                 </div>
                 <div className=''>
                   <p className='raising'>Raising</p>
-                  <div className='diiv'>
-                    <p className='pricee'>+ ₦100,900,000</p>
+                  <div>
+                    <button className='pricee'>+ ₦100,900,000</button>
                     <p className='property'>Property Developer</p>
                   </div>
                 </div>
@@ -370,9 +370,7 @@ const Body = () => {
             <p className='or'>Get in touch or create account. We are 24/7 available</p>
           </div>
           <div>
-            <div className='buutton'>
-              <p className='contactus'>Contact Us</p>
-            </div>
+            <button className='buutton'>Contact Us</button>
           </div>
         </div>
     </Style>
@@ -1034,7 +1032,7 @@ const Style = styled.button`
   letter-spacing: 0em;
   text-align: left;
   color: #FF0000;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: 8px;
 }
 
@@ -1046,19 +1044,12 @@ const Style = styled.button`
   margin-left: 20px;
 }
 
-.diiv {
-  height: 26px;
-  width: 136px;
-  border-radius: 30px;
-  background: #3734A9;
-  margin-left: 5px;
-  margin-top: -8px;
-  justify-content: center;
-}
-
 .pricee {
-  height: 14px;
-  width: 109px;
+  width: 136px;
+  height: 26px;
+  border-color:  #3734A9;
+  background: #3734A9;
+  border-radius: 30px;
   font-family: Apercu Pro;
   font-size: 15px;
   font-weight: bold;
@@ -1066,8 +1057,12 @@ const Style = styled.button`
   letter-spacing: -0.02em;
   text-align: center;
   color: #060606;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-left: -86px;
+  text-transform: capitalize;
   margin-left: 5px;
-  margin-top: 10px;
+  margin-top: -8px;
 }
 
 .property{
@@ -1501,23 +1496,21 @@ width: 270px;
 .buutton {
   height: 60px;
   width: 200px;
-  margin-top: 140px;
-  margin-left: 90px;
-  border-radius: 4px;
-  background: #FFFFFF;
-}
-
-.contactus {
-  height: 22px;
-  width: 91px;
+  border-radius: 47px;
+  border-color: #FF0000;
+  background-color:  #FFFFFF;;
   font-family: Apercu Pro;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 60px;
-  margin-left: 60px;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
   color: #4F4F4F;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-left: -86px;
+  text-transform: capitalize;
+  margin-top: 110px;
+  margin-left: 60px;
 }
 `
