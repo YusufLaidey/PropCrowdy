@@ -15,8 +15,17 @@ import googleplay from '../images/googleplay.svg'
 import Iconmaterial from '../images/Iconmaterial.svg'
 import search from '../images/search.svg'
 import one from '../images/one.svg'
-import oneeee from '../images/oneeee.svg'
 import oness from '../images/oness.svg'
+import two from '../images/two.svg'
+import twoooo from '../images/twoooo.svg'
+import three from '../images/three.svg'
+import threeee from '../images/threeee.svg'
+import screenshot from '../images/screenshot.svg'
+import ss1 from '../images/ss1.svg'
+import ss2 from '../images/ss2.svg'
+
+
+// import oneeee from '../images/oneeee.svg'
 // import searchicon from '../images/searchicon.svg'
 // import moneybill from '../images/moneybill.svg'
 // import trendingup from '../images/trendingup.svg'
@@ -299,25 +308,71 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className='div1'>
-        <div>
-          <div className='shadow'>
-          <div className='div1'>
-          <img src={one} alt="Iconbootstrap" className="one"/>
-          <img src={oneeee} alt="Iconbootstrap" className=""/>
-          <img src={oness} alt="Iconbootstrap" className=""/>
-          </div>
-          </div>
-            <p></p>
+        <div className='div3'>
+          <div>
+            <div>
+              <div className='div1'>
+              <img src={one} alt="Iconbootstrap" className="one"/>
+              <img src={oness} alt="Iconbootstrap" className="shadow"/>
+              <div>
+                <p className='safe'>Safe</p>
+                <p className='card'>Your card details and data will never be stored, transferred or sold, so rest assured your transactions are safe with us.</p>
+              </div>
+            </div>
+            </div>
           </div>
           <div>
-            <p className='two'>2</p>
-            <p></p>
+            <div>
+              <div className='div1'>
+              <img src={two} alt="Iconbootstrap" className="two"/>
+              <img src={twoooo} alt="Iconbootstrap" className="shadoww"/>
+              <div>
+                <p className='secured'>Secured</p>
+                <p className='top'>PropCrowdy was built with top grade security features and our payment processor is tested and trusted compliant</p>
+              </div>
+            </div>
+            </div>
           </div>
-          <div className='shadow'>
-          {/* <img src={one} alt="Iconbootstrap" className=""/> */}
-            <p className='three'>3</p>
-            <p></p>
+          <div>
+            <div>
+              <div className='div1'>
+              <img src={three} alt="Iconbootstrap" className="three"/>
+              <img src={threeee} alt="Iconbootstrap" className="shadowww"/>
+              <div>
+                <p className='reliable'>Reliable</p>
+                <p className='free'>Propcrowdy is stress free, reliable and safe</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className='our'>Articles From Our Blog</p>
+          <p className='updated'>Stay updated with PropCrowdy trends and market updates</p>
+        </div>
+        <div>
+          <img src={screenshot} alt="Iconbootstrap" className="screenshot"/>
+        </div>
+        <div>
+          <p className='funded'>Funded Companies</p>
+          <p className='executive'>Our exclusive list of investment companies</p>
+        </div>
+        <div className='div4'>
+          <img src={ss1} alt="Iconbootstrap" className="ss1"/>
+          <img src={ss2} alt="Iconbootstrap" className="ss2"/>
+          <img src={ss1} alt="Iconbootstrap" className="ss2"/>
+          <img src={ss2} alt="Iconbootstrap" className="ss2"/>
+          <img src={ss1} alt="Iconbootstrap" className="ss2"/>  
+        </div>
+        <div className='background6'>
+          <div>
+            <p className='you'>Get all the support you need, Contact our online agent </p>
+            <p className='or'>Get in touch or create account. We are 24/7 available</p>
+          </div>
+          <div>
+            <div className='buutton'>
+              <p className='contactus'>Contact Us</p>
+            </div>
           </div>
         </div>
     </Style>
@@ -1165,7 +1220,7 @@ const Style = styled.button`
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
-  margin-left: -153px;
+  margin-left: -113px;
   letter-spacing: -0.02em;
   text-align: left;
   color: #FFFFFF;
@@ -1209,14 +1264,260 @@ const Style = styled.button`
   color: #718EBF;
 }
 
+.div3 {
+  display: flex;
+  margin-top: 279px;
+}
 .one {
-  margin-left: 10px;
+  margin-left: 52px;
+  height: 155px;
+  width: 77px;
 }
 
 
 .shadow {
-  height: 166px;
-  width: 84px;
-  background-image: url("oneeee");
+ margin-left: 10px;
+ height: 159px;
+width: 270px;
+}
+
+.two {
+  height: 155px;
+  width: 124px;
+  margin-left: -20px;
+}
+
+.shadowww {
+  height: 160px;
+  width: 322px;
+}
+
+.three {
+  height: 157px;
+  width: 123px;
+  margin-left: -4px;
+}
+
+.shadoww {
+  height: 161px;
+  width: 360px;
+  margin-left: -16px;
+}
+
+.safe {
+  height: 50px;
+  width: 275px;
+  font-family: Apercu Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-left: -240px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FBFBFB;
+}
+
+.card {
+  height: 63px;
+  width: 236px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: -240px;
+  margin-top: -38px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.secured {
+  height: 49px;
+  width: 275px;
+  font-family: Apercu Pro;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: -310px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.top {
+  height: 63px;
+  width: 252px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: -310px;
+  margin-top: -38px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF
+}
+
+.reliable {
+  height: 49px;
+  width: 275px;
+  font-family: Apercu Pro;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: -300px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.free {
+  height: 64px;
+  width: 252px;
+  font-family: Apercu Pro;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: -300px;
+  margin-top: -38px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.our {
+  height: 42px;
+  width: 359px;
+  font-family: Tiempos Headline;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 139px;
+  margin-left: 518px;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #050505;
+}
+
+.updated {
+  height: 34px;
+  width: 491px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 434px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+
+.screenshot {
+  height: 520px;
+  width: 1000px;
+  margin-top: 60px;
+}
+
+.funded {
+  height: 42px;
+  width: 309px;
+  font-family: Tiempos Headline;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 180px;
+  margin-left: 560px;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #050505;
+}
+
+.executive {
+  height: 34px;
+  width: 491px;
+  font-family: Apercu Pro;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 438px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+
+.div4{
+  display: flex;
+  margin-top: 98px;
+}
+
+.ss1 {
+  height: 208px;
+  width: 120px;
+  margin-left: 240px;
+}
+
+.ss2 {
+  margin-left: 63px;
+}
+
+.background6 {
+  display: flex;
+  height: 250px;
+  width: 1160px;
+  margin-top: 91px;
+  margin-left: 94px;
+  border-radius: 10px;
+  background: #FF0000;
+}
+
+.you {
+  height: 100px;
+  width: 637px;
+  font-family: Apercu Pro;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 75px;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.or {
+  height: 25px;
+  width: 637px;
+  font-family: Apercu Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.buutton {
+  height: 60px;
+  width: 200px;
+  margin-top: 140px;
+  margin-left: 90px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.contactus {
+  height: 22px;
+  width: 91px;
+  font-family: Apercu Pro;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 60px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
 }
 `
